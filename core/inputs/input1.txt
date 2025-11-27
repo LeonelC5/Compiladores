@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int suma(int a, int b) {
+    int r;
+    r = a + b;
+    return r;
+}
+
+int main() {
+    int x;
+    int y;
+    int z;
+
+    x = 2;
+    y = 3;
+    z = suma(x, y);
+
+    printf("suma = %d\n", z);
+    return 0;
+}
